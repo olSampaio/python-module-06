@@ -1,4 +1,13 @@
-from .elements import create_air  # noqa: F401
-from .potions import healing_potion, strength_potion  # noqa: F401
-from .transmutation import lead_to_gold  # noqa: F401
+from .elements import create_air
+from .potions import healing_potion, strength_potion
+from .transmutation import lead_to_gold
+
 heal = healing_potion
+
+__all__ = [
+    "create_air",
+    "healing_potion",
+    "strength_potion",
+    "lead_to_gold",
+    "heal",
+]
